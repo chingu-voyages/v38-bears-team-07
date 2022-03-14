@@ -2,7 +2,7 @@
   "name": "server",
   "version": "1.0.0",
   "description": "Dating app for Chingu Hackathon",
-  "main": "server.ts",
+  "main": "server.js",
   "scripts": {
     "dev": "ts-node-dev --clear server.ts",
     "build": "tsc",
