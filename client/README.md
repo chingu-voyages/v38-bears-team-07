@@ -17,3 +17,6 @@ https://lucid.app/lucidchart/4f9362bd-7efa-4b09-af1d-af972dd2b5a8/edit?invitatio
 
 ## Figma Wireframe
 https://www.figma.com/file/MnABUkt6y9YHMTRKcALlHn/The-Dating-App?node-id=0%3A1
+
+## Notion Space
+https://www.notion.so/11f7537c06ff4c83a2298691f37aecd5?v=75bce634874f40ce81a0331d98852387
