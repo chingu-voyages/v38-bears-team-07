@@ -1,4 +1,4 @@
-import React, { ReactElement, FC } from "react";
+import React, { ReactElement, FC, useEffect } from "react";
 import { makeStyles, createStyles, Theme } from "@material-ui/core/styles";
 
 const useStyles = makeStyles((theme: Theme) =>
@@ -8,13 +8,17 @@ const useStyles = makeStyles((theme: Theme) =>
     }
   })
 );
-
 interface Props {
     title: String
 }
 
 const Header: FC<Props> = ({ title }): ReactElement => {
     const classes = useStyles();
+
+    useEffect(() => {
+      fetch("http://localhost:5002/auth/login")
+      .then(data => console.log(data))
+    })
     return (
         <div className={classes.root}>
             {title}
